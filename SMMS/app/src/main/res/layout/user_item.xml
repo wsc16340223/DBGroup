@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/userId"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginLeft="10dp"
+    android:gravity="center"
+    android:background="@drawable/goods_circle"
+    android:textColor="#fff"
+    android:textSize="20dp"
+    android:text="1"
+    android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/userName"
+        android:textColor="#D5000000"
+        android:textSize="22sp"
+        android:text="小王"
+        android:layout_gravity="center"/>
+</LinearLayout>
